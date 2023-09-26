@@ -1,11 +1,12 @@
 import React from "react";
-import "./Kyc3.css"; 
+import './Kyc3.css'
 import Line30 from './line-30.svg'; 
 import Line31 from './line-31.svg';
 import Line34 from './line-34.svg';
 import Line35 from './line-35.svg';
 import Line36 from './line-36.svg';
 import Line37 from './line-37.svg';
+import { Link } from "react-router-dom";
 
 export const Kyc3 = () => {
   return (
@@ -43,6 +44,9 @@ export const Kyc3 = () => {
         <img className="line-4" alt="Line" src={Line35} />
         <img className="line-5" alt="Line" src={Line36} />
         <img className="line-6" alt="Line" src={Line37} />
+        <Link to="/Kyc2">
+          <button type="submit" className="overlap-group text-wrapper-3">Previous</button>
+          </Link>
       </div>
     </div>
   );

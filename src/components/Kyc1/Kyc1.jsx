@@ -1,5 +1,5 @@
 import React from "react";
-import "./Kyc1.css";
+import "./Kyc1.css"
 import Line from './line-28.svg';
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { useFormik } from "formik";

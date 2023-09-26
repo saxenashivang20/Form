@@ -1,5 +1,5 @@
 import React from "react";
-import "./Kyc2.css"; 
+import './Kyc2.css'; 
 import Line from './line-32.svg'; 
 import { useFormik } from "formik";
 import { Link } from "react-router-dom";
@@ -102,6 +102,10 @@ export const Kyc2 = () => {
           />
            <Link to="/kyc3">
           <button type="submit" className="overlap-group text-wrapper-2">Next</button>
+          </Link>
+          
+          <Link to="/">
+          <button type="submit" className="overlap-group text-wrapper-3">Previous</button>
           </Link>
         </form>
         <div className="text-wrapper-10">Identity</div>
